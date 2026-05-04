@@ -1,0 +1,16 @@
+﻿{
+  "name": "tekkishodan-worker",
+  "version": "1.0.0",
+  "description": "Tekkishodan Website",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:prod": "wrangler deploy --env production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.40.0"
+  }
+}
